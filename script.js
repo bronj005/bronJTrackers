@@ -315,7 +315,8 @@
  
  // Render entries on page load if the entries section is visible
  window.onload = function() {
-   if (document.getElementById("entriesSection").style.display !== "none") {
-     renderEntries();
-   }
+   // if (document.getElementById("entriesSection").style.display !== "none") {
+   //   renderEntries();
+   // }
+  renderEntries();
  }
